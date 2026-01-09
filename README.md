@@ -63,7 +63,23 @@ src >> mcqgenerator >> MCQGenerator.py, logger.py and utils.py
 
 # one more file we will create inside root directory StreamlitAPP.py
 
+In any project these file and file structure will remain same.
+
 ---- commit the changes inside github -----
+
+---- Lets start with the coding ----
+ # 1. we have various classes and functions and all, the functions which you going to create for particular purpose, when every you execute that function it will save inside.
+ logger.py >> create logger file using dymanic date-time stamp when ever function or class or any action is triggered
+
+ check python logger documentation there you can find how to use the labels example: till info and above the info 
+ https://docs.python.org/3/library/logging.html#:~:text=pickled%20and%20unpickled.-,Logging%20Levels,-%C2%B6
+
+
+
+ -- to activate the envirounment ----
+ source activate ./env
+ pip list ( it will list all the libraries and packages )
+ Note : you will also find your local package as well mcqgenerator
 
 
 
